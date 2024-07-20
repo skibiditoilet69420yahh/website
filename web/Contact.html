@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Moon</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="UIpage.html">UI Libraries</a>
+            <a class="active" href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box contact">
+            <h2>Contact</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" id="user" required>
+                    <label>Discord User</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="content" required>
+                    <label>What you need help with</label>
+                </div>
+                <button onClick="message()" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
